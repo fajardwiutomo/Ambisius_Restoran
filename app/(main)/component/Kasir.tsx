@@ -1,59 +1,5 @@
 'use client'
 import { extractNumber } from '@/app/helper/getValue';
-// export default function Kasir() {
-//     return (
-//         <div className="py-5 px-5 bg-gray-50 mt-5 rounded-md space-y-2">
-//             <p>Meja</p>
-//             <div className="flex justify-between">
-//             <div className="mr-5 flex gap-2">
-//                 <select className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/4 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-//                     <option selected>Nomor Meja</option>
-//                     <option value="1">1</option>
-//                 </select>
-//                 <button className="px-5 py-2 bg-black text-sm text-white rounded-md">Print Struk</button>
-//             </div>
-//             <button className="px-5 py-2 bg-red-400 text-sm text-white rounded-md">Kosongkan Meja</button>
-//             </div>
-
-//             <div className="relative overflow-x-auto">
-//                 <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-//                     <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-//                         <tr>
-//                             <th scope="col" className="px-6 py-3">
-//                                 Jumlah
-//                             </th>
-//                             <th scope="col" className="px-6 py-3">
-//                                 Menu
-//                             </th>
-//                             <th scope="col" className="px-6 py-3">
-//                                 Harga
-//                             </th>
-
-//                         </tr>
-//                     </thead>
-//                     <tbody>
-//                         <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-//                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-//                                 1
-//                             </th>
-//                             <td className="px-6 py-4">
-//                                 Ayam Kecap Manis
-//                             </td>
-//                             <td className="px-6 py-4">
-//                                 Gratis
-//                             </td>
-//                         </tr>
-//                     </tbody>
-//                 </table>
-//             </div>
-
-//             <div className="flex justify-center mt-5">
-//                 <p className="text-sm ">Terima kasih sudah makan di <span className="font-semibold">Restoran</span></p>
-//             </div>
-//         </div>
-//     )
-// }
-
 import React, { useState, useEffect } from 'react';
 
 interface MenuItem {
